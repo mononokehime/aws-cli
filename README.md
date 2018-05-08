@@ -3,6 +3,7 @@ This image allows you to run aws cli commands either from the container itself,
 or as a simple command piped to the container. The advantage is that you do not 
 need to install aws cli and each container connects to a different aws account, thereby 
 avoiding multiple profiles.
+
 Build time options:
  - change timezone (default is Hong Kong)
  - aws default region
